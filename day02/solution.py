@@ -1,6 +1,6 @@
 def load_input():
     input_list = []
-    with open('day02/input.txt') as file:
+    with open('input.txt') as file:
         for line in file:
             line = line.split()
             r = map(int, line[0].split('-'))

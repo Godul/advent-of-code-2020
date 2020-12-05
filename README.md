@@ -7,5 +7,6 @@ Don't know what I'm talking about? Check out at https://adventofcode.com/2020/.
 ### Usage
 ```sh
 # Example
-python3 day01/solution.py
+cd day01
+python3 solution.py
 ```

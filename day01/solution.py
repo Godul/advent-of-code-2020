@@ -1,5 +1,5 @@
 def load_numbers():
-    with open('day01/input.txt', 'r') as file:
+    with open('input.txt', 'r') as file:
         return list(map(int, file))
 
 

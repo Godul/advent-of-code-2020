@@ -5,7 +5,7 @@ def part_1():
     num_trees = 0
     x = 0
 
-    with open('day03/input.txt') as file:
+    with open('input.txt') as file:
         for line in file:
             if line[x] == '#':
                 num_trees += 1
@@ -24,7 +24,7 @@ def part_2():
     xs = [0] * len(moves)
     results = [0] * len(moves)
 
-    with open('day03/input.txt') as file:
+    with open('input.txt') as file:
         for y, line in enumerate(file):
             for i, (x_d, y_d) in enumerate(moves):
                 if y % y_d != 0:
