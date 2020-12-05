@@ -73,7 +73,7 @@ def both_parts():
     num_valid_2 = 0
     data = {}
 
-    with open('inputs/input4.txt') as file:
+    with open('day04/input.txt') as file:
         for line in file:
             if line == '\n':
                 if not has_required_fields(data):

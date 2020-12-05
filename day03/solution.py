@@ -5,12 +5,11 @@ def part_1():
     num_trees = 0
     x = 0
 
-    with open('inputs/input3.txt') as file:
+    with open('day03/input.txt') as file:
         for line in file:
             if line[x] == '#':
                 num_trees += 1
             x = (x + 3) % (len(line) - 1)
-
     print(num_trees)
 
 
@@ -25,7 +24,7 @@ def part_2():
     xs = [0] * len(moves)
     results = [0] * len(moves)
 
-    with open('inputs/input3.txt') as file:
+    with open('day03/input.txt') as file:
         for y, line in enumerate(file):
             for i, (x_d, y_d) in enumerate(moves):
                 if y % y_d != 0:
@@ -35,7 +34,6 @@ def part_2():
                     results[i] += 1
 
                 xs[i] = (xs[i] + x_d) % (len(line) - 1)
-
     print(reduce(lambda x, y: x * y, results))
 
 
