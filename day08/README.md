@@ -103,4 +103,4 @@ Fix the program so that it terminates normally by changing exactly one `jmp` (to
 **What is the value of the accumulator after the program terminates?**
 
 
-*Source: https://adventofcode.com/2020/day/7.*
+*Source: https://adventofcode.com/2020/day/8.*
